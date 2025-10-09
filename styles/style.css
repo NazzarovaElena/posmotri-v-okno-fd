@@ -104,6 +104,10 @@ ol {
   text-decoration: underline;
 }
 
+.search-form__label:active {
+  text-decoration: none;
+}
+
 /* .search-form__label:has(:focus-visible) {
   outline: currentColor;
   border: green solid 5px;
@@ -135,7 +139,7 @@ ol {
   opacity: 0;
 }
 
-.search-form__checkbox:checked {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
@@ -186,7 +190,7 @@ ol {
 
 .more-button {                
   width: 100%;
-                              /* Высоту не смогла измерить */
+  flex-shrink: 0;
 }
 
 .button:hover {
@@ -195,6 +199,7 @@ ol {
 
 .button:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 /* Стили области со списком городов */
