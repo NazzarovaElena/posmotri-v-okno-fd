@@ -61,7 +61,7 @@ ol {
   height: 534px;
   }
 
-/* Стили для окна просмотра */
+/* Стили для окна просмотра видео */
 
 .result__video-container {
   position: relative;
@@ -226,7 +226,6 @@ ol {
   font-weight: bold;
   line-height: 94%;
   letter-spacing: 0;
-  /* font-weight: 1.15; */
   text-transform: uppercase;
 }
 
@@ -241,7 +240,7 @@ ol {
   height: 298px;
   overflow-y: auto;
   gap: 30px;
-  }
+}
 
 .content__list {
   display: flex;
@@ -289,7 +288,7 @@ ol {
 .content__video-card-thumbnail {
   min-width: 194px;
   height: 103px;
-  object-fit: cover; /* тут если меняешь картинки шире становятся. Проверить по заданию не требовали ли там другое значение? */
+  object-fit: cover; 
   object-position: center;
 }
 
@@ -322,15 +321,3 @@ ol {
   -webkit-line-clamp: 4;
   line-clamp: 4;
 }
-
-.pixel-perfect-image {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  opacity: 0.5;
-  filter: sepia(0.6);
-  width: 1140px;
-  height: 534px;
-  
-} 
