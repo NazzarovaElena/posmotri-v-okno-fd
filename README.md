@@ -1,5 +1,7 @@
 # Проектная работа "Посмотри в окно"
 
-[ссылка на Github](https://github.com/NazzarovaElena/posmotri-v-okno-fd)
+ссылка на Github
+
+https://github.com/NazzarovaElena/posmotri-v-okno-fd
 
 Сайт предоставляет пользователю возможность найти город и просмотреть видео, снятые в разное время суток.
